@@ -3,4 +3,7 @@ class PagesController < ApplicationController
 		@comments = Comment.all
 		@comment = Comment.new
 	end
+
+
+
 end
